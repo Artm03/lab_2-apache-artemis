@@ -4,7 +4,7 @@ server:
 spring:
   activemq:
     mode: native
-    broker-url: "(tcp://185.159.111.149:61616,tcp://185.159.111.149:61618)?ha=true"
+    broker-url: tcp://185.159.111.149:61616
     user: maiadmin
     password: eeL1j1C2yZ
     packages:
